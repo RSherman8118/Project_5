@@ -1,5 +1,8 @@
 function myFunction() {
-    document.getElementById("myImg").src = "../Project_5/kid1.jpg";
+    myimg = document.getElementById("myImg");
+    myimg.src = "../Project_5/kid1.jpg";
+
+    myimg.classList.toggle("animated");
 
 
     //.className ='image1';
